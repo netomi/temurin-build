@@ -14,7 +14,7 @@
 name: OSSF Scorecard
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
